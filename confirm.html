@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<script>
+    function processAnswer(a) {
+        var result = "";
+        if(a){
+            result = "We will have a good time";
+        }else{
+            result = "what a shame! let's go out next time then";
+        }
+    return result;
+    }
+
+</script>
+</head>
+<body>
+<script>
+    var theAnswer = confirm("shall we have a night out?");
+    alert(processAnswer(theAnswer));
+
+</script>
+
+
+</body>
+</html>
